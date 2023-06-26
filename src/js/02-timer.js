@@ -21,9 +21,9 @@ let timerId = null;
 let dateCountFrom = null;
 
 function checkDate(selectedDate) {
-  console.log(selectedDate);
+  // console.log(selectedDate);
   const currentDate = new Date();
-  console.log(currentDate);
+  // console.log(currentDate);
   if (selectedDate < currentDate) {
     //   window.alert('Please choose a date in the future');
     Notify.failure('Please choose a date in the future', {
